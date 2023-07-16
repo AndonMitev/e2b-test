@@ -1,0 +1,17 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 20px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .layoutContainer {
+    flex-direction: column;
+  }
+}

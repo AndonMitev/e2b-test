@@ -1,0 +1,56 @@
+/* Reset some basic elements */
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set global font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Set a global link style */
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Set a global container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Set styles for the sidebar */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Set styles for the main content area */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Set a global responsive style */
+@media (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
